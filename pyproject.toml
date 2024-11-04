@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "aieda"
+version = "0.1.0"
+description = ""
+authors = ["arun-terrablueai <arun@terrablue.ai>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langgraph = "^0.2.35"
+langchain = {extras = ["experimental"], version = "^0.3.5"}
+typing-extensions = "^4.12.2"
+langchain-experimental = "^0.3.2"
+langchain-community = "^0.3.2"
+openai = "^1.51.2"
+langchain-openai = "^0.2.4"
+beautifulsoup4 = "^4.12.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
